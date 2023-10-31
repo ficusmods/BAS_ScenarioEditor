@@ -1,0 +1,832 @@
+{
+  "$type": "ScenarioEditor.Data.SEDataScenario, ScenarioEditor",
+  "id": "DungeonScenario",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "DataFormatVersion": 1,
+  "Locations": {
+    "$type": "ScenarioEditor.Data.SEDataLocations, ScenarioEditor",
+    "Location": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 38.8044,
+        "y": 8.98456,
+        "z": 18.699049
+      },
+      "rotation": {
+        "x": 3.439878,
+        "y": 69.7078857,
+        "z": 358.7792
+      }
+    },
+    "Location0": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 46.11081,
+        "y": 10.0569715,
+        "z": 1.43517971
+      },
+      "rotation": {
+        "x": -0.00243082386,
+        "y": 289.887146,
+        "z": -0.00199642382
+      }
+    },
+    "Location1": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 45.91711,
+        "y": 10.0268717,
+        "z": -2.26737547
+      },
+      "rotation": {
+        "x": -0.00219890615,
+        "y": 296.3734,
+        "z": -0.00246072258
+      }
+    },
+    "Location10": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -49.32207,
+        "y": 0.2382147,
+        "z": -0.411070526
+      },
+      "rotation": {
+        "x": -0.005548985,
+        "y": 269.518768,
+        "z": -0.00303948042
+      }
+    },
+    "Location11": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -49.59171,
+        "y": 0.420130163,
+        "z": 0.8934296
+      },
+      "rotation": {
+        "x": -0.0047576,
+        "y": 282.630676,
+        "z": -0.00402146252
+      }
+    },
+    "Location12": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -49.9631577,
+        "y": 0.642674148,
+        "z": 0.365773857
+      },
+      "rotation": {
+        "x": -0.00477857376,
+        "y": 282.629944,
+        "z": -0.00402516732
+      }
+    },
+    "Location13": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -39.4875832,
+        "y": 4.079435,
+        "z": 9.991724
+      },
+      "rotation": {
+        "x": 0.00329183671,
+        "y": 10.8862228,
+        "z": -0.00475747231
+      }
+    },
+    "Location14": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -43.7895622,
+        "y": 1.86641061,
+        "z": 25.154686
+      },
+      "rotation": {
+        "x": 0.000218527188,
+        "y": 155.326645,
+        "z": 0.00571249239
+      }
+    },
+    "Location15": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -57.2258,
+        "y": -2.53903985,
+        "z": 11.533494
+      },
+      "rotation": {
+        "x": 0.002983305,
+        "y": 9.763729,
+        "z": -0.00491065858
+      }
+    },
+    "Location16": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -59.895134,
+        "y": -2.46716166,
+        "z": 13.2728624
+      },
+      "rotation": {
+        "x": 0.005560116,
+        "y": 82.16148,
+        "z": 0.00146161858
+      }
+    },
+    "Location17": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -58.49272,
+        "y": -2.2870388,
+        "z": 16.07834
+      },
+      "rotation": {
+        "x": -0.0033797035,
+        "y": 193.260544,
+        "z": 0.00462758634
+      }
+    },
+    "Location18": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -55.4072571,
+        "y": -2.30372643,
+        "z": 14.5252132
+      },
+      "rotation": {
+        "x": -0.004545694,
+        "y": 285.3254,
+        "z": -0.00353616918
+      }
+    },
+    "Location19": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -98.62171,
+        "y": -7.80910969,
+        "z": 10.0653105
+      },
+      "rotation": {
+        "x": -0.0027369156,
+        "y": 187.615891,
+        "z": 0.00353648886
+      }
+    },
+    "Location2": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 39.35268,
+        "y": 10.0048122,
+        "z": -2.46274662
+      },
+      "rotation": {
+        "x": 0.00315639679,
+        "y": 72.04501,
+        "z": 0.000491091
+      }
+    },
+    "Location20": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -95.36053,
+        "y": -10.2971067,
+        "z": 12.0008554
+      },
+      "rotation": {
+        "x": -0.00191943848,
+        "y": 174.9355,
+        "z": 0.0039907
+      }
+    },
+    "Location21": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -105.287521,
+        "y": -15.4427528,
+        "z": 7.56409645
+      },
+      "rotation": {
+        "x": 0.00472781574,
+        "y": 70.1594849,
+        "z": 0.000622599153
+      }
+    },
+    "Location22": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -170.599457,
+        "y": -14.7914963,
+        "z": 228.087128
+      },
+      "rotation": {
+        "x": 6.20269871,
+        "y": 243.083313,
+        "z": 357.717621
+      }
+    },
+    "Location3": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 41.5103,
+        "y": 9.174711,
+        "z": 15.448411
+      },
+      "rotation": {
+        "x": 0.00256109959,
+        "y": 345.64798,
+        "z": 359.991455
+      }
+    },
+    "Location4": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 39.5435867,
+        "y": 9.057842,
+        "z": 15.1078358
+      },
+      "rotation": {
+        "x": 0.002368075,
+        "y": 345.647736,
+        "z": 359.9915
+      }
+    },
+    "Location5": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 37.007637,
+        "y": 9.110831,
+        "z": 14.3419638
+      },
+      "rotation": {
+        "x": 0.00538077531,
+        "y": 6.479858,
+        "z": 359.99292
+      }
+    },
+    "Location6": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -6.321393,
+        "y": 0.05891321,
+        "z": 4.48870468
+      },
+      "rotation": {
+        "x": -0.002997168,
+        "y": 180.361481,
+        "z": 0.00757217268
+      }
+    },
+    "Location7": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -7.546241,
+        "y": 0.058880724,
+        "z": 3.80737448
+      },
+      "rotation": {
+        "x": 359.9935,
+        "y": 281.296875,
+        "z": -0.004958252
+      }
+    },
+    "Location8": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -7.683847,
+        "y": 0.058880724,
+        "z": 2.60216975
+      },
+      "rotation": {
+        "x": 359.994049,
+        "y": 284.935028,
+        "z": -0.00511515839
+      }
+    },
+    "Location9": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -22.6438828,
+        "y": 0.0588925853,
+        "z": -0.0655982047
+      },
+      "rotation": {
+        "x": 359.9935,
+        "y": 267.939941,
+        "z": -0.00327846548
+      }
+    }
+  },
+  "Triggers": {
+    "$type": "ScenarioEditor.Data.SEDataTriggers, ScenarioEditor",
+    "Trigger": {
+      "$type": "ScenarioEditor.Data.SEDataTrigger, ScenarioEditor",
+      "start": {
+        "x": -15.8593626,
+        "y": 0.0309603475,
+        "z": -0.5808712
+      },
+      "end": {
+        "x": -15.89078,
+        "y": 2.06993842,
+        "z": 0.692297637
+      }
+    },
+    "Trigger0": {
+      "$type": "ScenarioEditor.Data.SEDataTrigger, ScenarioEditor",
+      "start": {
+        "x": -38.754158,
+        "y": 0.036549475,
+        "z": 8.597226
+      },
+      "end": {
+        "x": -40.7214622,
+        "y": 6.756506,
+        "z": 8.769831
+      }
+    },
+    "Trigger1": {
+      "$type": "ScenarioEditor.Data.SEDataTrigger, ScenarioEditor",
+      "start": {
+        "x": -83.04341,
+        "y": -2.73613763,
+        "z": 15.50556
+      },
+      "end": {
+        "x": -83.23461,
+        "y": -0.09702304,
+        "z": 13.7853966
+      }
+    }
+  },
+  "RootNode": {
+    "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+    "condition": {
+      "$type": "ScenarioEditor.Scene.Condition.ConditionTrue, ScenarioEditor",
+      "id": "TRUE"
+    },
+    "child": {
+      "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+      "ChildByName": {
+        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+        "ControlParallel": {
+          "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+          "ChildByName": {
+            "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+            "Scene": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": {
+                "$type": "ScenarioEditor.Scene.Condition.ConditionTrue, ScenarioEditor",
+                "id": "TRUE"
+              },
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionCreateItemSpot": {
+                    "$type": "Scavenger.SE.ActionCreateItemSpot, Scavenger",
+                    "locationId": "Location",
+                    "itemId": "FoodApple",
+                    "bbSpawnedId": "apple",
+                    "id": "ActionCreateItemSpot"
+                  },
+                  "ConditionalWaitFor": {
+                    "$type": "ScenarioEditor.Scene.Conditional.ConditionalWaitFor, ScenarioEditor",
+                    "condition": {
+                      "$type": "ScenarioEditor.Scene.Condition.ConditionObjectGrabbed, ScenarioEditor",
+                      "bbObjId": "apple",
+                      "id": "ConditionObjectGrabbed"
+                    },
+                    "child": {
+                      "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                      "ChildByName": {
+                        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                        "ActionMoveCreature": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                          "locationId": "Location3",
+                          "bbCreatureId": "e0",
+                          "id": "ActionMoveCreature"
+                        },
+                        "ActionMoveCreature0": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                          "locationId": "Location4",
+                          "bbCreatureId": "e1",
+                          "id": "ActionMoveCreature0"
+                        },
+                        "ActionMoveCreature1": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                          "locationId": "Location5",
+                          "bbCreatureId": "e2",
+                          "id": "ActionMoveCreature1"
+                        },
+                        "ActionSpawnCreature": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location0",
+                          "creatureId": "BanditHard",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "e0",
+                          "despawnOnReset": true,
+                          "faction": "Enemy1",
+                          "id": "ActionSpawnCreature"
+                        },
+                        "ActionSpawnCreature0": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location1",
+                          "creatureId": "BanditHard",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "e1",
+                          "despawnOnReset": true,
+                          "faction": "Enemy1",
+                          "id": "ActionSpawnCreature0"
+                        },
+                        "ActionSpawnCreature1": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location2",
+                          "creatureId": "BanditHard",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "e2",
+                          "despawnOnReset": true,
+                          "faction": "Enemy1",
+                          "id": "ActionSpawnCreature1"
+                        }
+                      },
+                      "ChildOrder": [
+                        "ActionSpawnCreature",
+                        "ActionSpawnCreature0",
+                        "ActionSpawnCreature1",
+                        "ActionMoveCreature",
+                        "ActionMoveCreature0",
+                        "ActionMoveCreature1"
+                      ],
+                      "id": "ControlParallel"
+                    },
+                    "id": "ConditionalWaitFor"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionCreateItemSpot",
+                  "ConditionalWaitFor"
+                ],
+                "id": "ControlParallel"
+              },
+              "id": "Scene"
+            },
+            "Scene0": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": {
+                "$type": "ScenarioEditor.Scene.Condition.ConditionTrue, ScenarioEditor",
+                "id": "TRUE"
+              },
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionSpawnCreature": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location6",
+                    "creatureId": "BanditMelee",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature"
+                  },
+                  "ConditionalWaitFor": {
+                    "$type": "ScenarioEditor.Scene.Conditional.ConditionalWaitFor, ScenarioEditor",
+                    "condition": {
+                      "$type": "ScenarioEditor.Scene.Condition.ConditionTriggerActive, ScenarioEditor",
+                      "triggerId": "Trigger",
+                      "bbCount": null,
+                      "inverted": true,
+                      "filterNames": [
+                        "FilterIsPlayer"
+                      ],
+                      "id": "ConditionTriggerActive"
+                    },
+                    "child": {
+                      "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                      "ChildByName": {
+                        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                        "ActionMoveCreature": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                          "locationId": "Location9",
+                          "bbCreatureId": "e0",
+                          "id": "ActionMoveCreature"
+                        },
+                        "ActionMoveCreature0": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                          "locationId": "Location9",
+                          "bbCreatureId": "e1",
+                          "id": "ActionMoveCreature0"
+                        },
+                        "ActionSpawnCreature": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location7",
+                          "creatureId": "BanditMelee",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "e0",
+                          "despawnOnReset": true,
+                          "faction": "Enemy1",
+                          "id": "ActionSpawnCreature"
+                        },
+                        "ActionSpawnCreature0": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location8",
+                          "creatureId": "BanditMelee",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "e1",
+                          "despawnOnReset": true,
+                          "faction": "Enemy1",
+                          "id": "ActionSpawnCreature0"
+                        }
+                      },
+                      "ChildOrder": [
+                        "ActionSpawnCreature",
+                        "ActionSpawnCreature0",
+                        "ActionMoveCreature",
+                        "ActionMoveCreature0"
+                      ],
+                      "id": "ControlParallel"
+                    },
+                    "id": "ConditionalWaitFor"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionSpawnCreature",
+                  "ConditionalWaitFor"
+                ],
+                "id": "ControlParallel"
+              },
+              "id": "Scene0"
+            },
+            "Scene1": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": null,
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionCreateItemSpot": {
+                    "$type": "Scavenger.SE.ActionCreateItemSpot, Scavenger",
+                    "locationId": "Location10",
+                    "itemId": "ThrowablesRock",
+                    "bbSpawnedId": "",
+                    "id": "ActionCreateItemSpot"
+                  },
+                  "ActionCreateItemSpot0": {
+                    "$type": "Scavenger.SE.ActionCreateItemSpot, Scavenger",
+                    "locationId": "Location11",
+                    "itemId": "ThrowablesRock",
+                    "bbSpawnedId": "",
+                    "id": "ActionCreateItemSpot0"
+                  },
+                  "ActionCreateItemSpot1": {
+                    "$type": "Scavenger.SE.ActionCreateItemSpot, Scavenger",
+                    "locationId": "Location12",
+                    "itemId": "ThrowablesRock",
+                    "bbSpawnedId": "",
+                    "id": "ActionCreateItemSpot1"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionCreateItemSpot",
+                  "ActionCreateItemSpot0",
+                  "ActionCreateItemSpot1"
+                ],
+                "id": "ControlParallel"
+              },
+              "id": "Scene1"
+            },
+            "Scene2": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": null,
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionSpawnCreature": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location13",
+                    "creatureId": "BanditArchers",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature"
+                  },
+                  "ActionSpawnCreature0": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location14",
+                    "creatureId": "BanditArchers",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature0"
+                  },
+                  "ConditionalWaitFor": {
+                    "$type": "ScenarioEditor.Scene.Conditional.ConditionalWaitFor, ScenarioEditor",
+                    "condition": {
+                      "$type": "ScenarioEditor.Scene.Condition.ConditionTriggerActive, ScenarioEditor",
+                      "triggerId": "Trigger0",
+                      "bbCount": null,
+                      "inverted": true,
+                      "filterNames": [
+                        "FilterIsPlayer"
+                      ],
+                      "id": "ConditionTriggerActive"
+                    },
+                    "child": {
+                      "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                      "ChildByName": {
+                        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                        "ActionSpawnCreature": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location15",
+                          "creatureId": "BanditHard",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "",
+                          "despawnOnReset": true,
+                          "faction": "Enemy1",
+                          "id": "ActionSpawnCreature"
+                        },
+                        "ActionSpawnCreature0": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location16",
+                          "creatureId": "KnightHard",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "",
+                          "despawnOnReset": true,
+                          "faction": "Enemy2",
+                          "id": "ActionSpawnCreature0"
+                        },
+                        "ActionSpawnCreature1": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location17",
+                          "creatureId": "KnightHard",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "",
+                          "despawnOnReset": true,
+                          "faction": "Enemy2",
+                          "id": "ActionSpawnCreature1"
+                        },
+                        "ActionSpawnCreature2": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location18",
+                          "creatureId": "BanditHard",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "",
+                          "despawnOnReset": true,
+                          "faction": "Enemy1",
+                          "id": "ActionSpawnCreature2"
+                        }
+                      },
+                      "ChildOrder": [
+                        "ActionSpawnCreature",
+                        "ActionSpawnCreature0",
+                        "ActionSpawnCreature1",
+                        "ActionSpawnCreature2"
+                      ],
+                      "id": "ControlParallel"
+                    },
+                    "id": "ConditionalWaitFor"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionSpawnCreature",
+                  "ActionSpawnCreature0",
+                  "ConditionalWaitFor"
+                ],
+                "id": "ControlParallel"
+              },
+              "id": "Scene2"
+            },
+            "Scene3": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": null,
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ConditionalWaitFor": {
+                    "$type": "ScenarioEditor.Scene.Conditional.ConditionalWaitFor, ScenarioEditor",
+                    "condition": {
+                      "$type": "ScenarioEditor.Scene.Condition.ConditionTriggerActive, ScenarioEditor",
+                      "triggerId": "Trigger1",
+                      "bbCount": null,
+                      "inverted": true,
+                      "filterNames": [
+                        "FilterIsPlayer"
+                      ],
+                      "id": "ConditionTriggerActive"
+                    },
+                    "child": {
+                      "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                      "ChildByName": {
+                        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                        "ActionSpawnCreature": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location19",
+                          "creatureId": "BanditArchers",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "",
+                          "despawnOnReset": true,
+                          "faction": "Enemy1",
+                          "id": "ActionSpawnCreature"
+                        },
+                        "ActionSpawnCreature0": {
+                          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                          "locationId": "Location20",
+                          "creatureId": "BanditArchers",
+                          "creatureType": "Table",
+                          "bbSpawnedId": "",
+                          "despawnOnReset": true,
+                          "faction": "Enemy1",
+                          "id": "ActionSpawnCreature0"
+                        }
+                      },
+                      "ChildOrder": [
+                        "ActionSpawnCreature",
+                        "ActionSpawnCreature0"
+                      ],
+                      "id": "ControlParallel"
+                    },
+                    "id": "ConditionalWaitFor"
+                  }
+                },
+                "ChildOrder": [
+                  "ConditionalWaitFor"
+                ],
+                "id": "ControlParallel"
+              },
+              "id": "Scene3"
+            },
+            "Scene4": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": null,
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionCreateItemSpot": {
+                    "$type": "Scavenger.SE.ActionCreateItemSpot, Scavenger",
+                    "locationId": "Location22",
+                    "itemId": "ViennoiseSword",
+                    "bbSpawnedId": "",
+                    "id": "ActionCreateItemSpot"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionCreateItemSpot"
+                ],
+                "id": "ControlParallel"
+              },
+              "id": "Scene4"
+            }
+          },
+          "ChildOrder": [
+            "Scene",
+            "Scene0",
+            "Scene1",
+            "Scene2",
+            "Scene3",
+            "Scene4"
+          ],
+          "id": "ControlParallel"
+        },
+        "Scene": {
+          "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+          "condition": null,
+          "child": {
+            "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+            "ChildByName": {
+              "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+              "ActionLoadDungeon": {
+                "$type": "ScenarioEditor.Scene.Action.ActionLoadDungeon, ScenarioEditor",
+                "levelId": "DungeonOutpost",
+                "seedStr": "961029770",
+                "child": null,
+                "id": "ActionLoadDungeon"
+              }
+            },
+            "ChildOrder": [
+              "ActionLoadDungeon"
+            ],
+            "id": "ControlSequence"
+          },
+          "id": "Scene"
+        }
+      },
+      "ChildOrder": [
+        "Scene",
+        "ControlParallel"
+      ],
+      "id": "ControlSequence"
+    },
+    "id": "Scene"
+  },
+  "Id": "DungeonScenario"
+}

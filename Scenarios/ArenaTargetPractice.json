@@ -1,0 +1,220 @@
+{
+  "$type": "ScenarioEditor.Data.SEDataScenario, ScenarioEditor",
+  "id": "ArenaTargetPractice",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "DataFormatVersion": 1,
+  "Locations": {
+    "$type": "ScenarioEditor.Data.SEDataLocations, ScenarioEditor",
+    "Location": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 5.47393847,
+        "y": 0.07036859,
+        "z": -1.0250634
+      },
+      "rotation": {
+        "x": 1.66695583,
+        "y": 270.4627,
+        "z": 358.221558
+      }
+    },
+    "Location0": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 7.00938559,
+        "y": 0.169999808,
+        "z": -1.02206039
+      },
+      "rotation": {
+        "x": 1.63724453E-05,
+        "y": 287.924957,
+        "z": -1.61349672E-05
+      }
+    },
+    "Location1": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 5.50975561,
+        "y": 1.071542,
+        "z": -1.0366925
+      },
+      "rotation": {
+        "x": 4.2636857,
+        "y": 231.9032,
+        "z": 356.751831
+      }
+    },
+    "Location2": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -1.80187118,
+        "y": 0.169999391,
+        "z": -1.29174435
+      },
+      "rotation": {
+        "x": 8.65975E-06,
+        "y": 124.760674,
+        "z": 3.65942469E-06
+      }
+    }
+  },
+  "Triggers": {
+    "$type": "ScenarioEditor.Data.SEDataTriggers, ScenarioEditor"
+  },
+  "RootNode": {
+    "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+    "condition": null,
+    "child": {
+      "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+      "ChildByName": {
+        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+        "ActionLoadLevel": {
+          "$type": "ScenarioEditor.Scene.Action.ActionLoadLevel, ScenarioEditor",
+          "levelId": "Arena",
+          "child": null,
+          "id": "ActionLoadLevel"
+        },
+        "ControlParallel": {
+          "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+          "ChildByName": {
+            "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+            "Scene": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": null,
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionSpawnItem": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnItem, ScenarioEditor",
+                    "locationId": "Location",
+                    "itemId": "Workbench1",
+                    "bbSpawnedId": "",
+                    "staticObj": true,
+                    "id": "ActionSpawnItem"
+                  },
+                  "ActionTeleportCreature": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionTeleportCreature, ScenarioEditor",
+                    "locationId": "Location0",
+                    "bbCreatureId": "Player",
+                    "id": "ActionTeleportCreature"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionSpawnItem",
+                  "ActionTeleportCreature"
+                ],
+                "id": "ControlSequence"
+              },
+              "id": "Scene"
+            },
+            "Scene0": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": {
+                "$type": "ScenarioEditor.Scene.Condition.ConditionTrue, ScenarioEditor",
+                "id": "TRUE"
+              },
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionSpawnItem": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnItem, ScenarioEditor",
+                    "locationId": "Location1",
+                    "itemId": "DaggerCommon",
+                    "bbSpawnedId": "knife",
+                    "staticObj": false,
+                    "id": "ActionSpawnItem"
+                  },
+                  "When": {
+                    "$type": "ScenarioEditor.Scene.Conditional.ConditionalWhen, ScenarioEditor",
+                    "condition": {
+                      "$type": "ScenarioEditor.Scene.Condition.ConditionObjectGrabbed, ScenarioEditor",
+                      "bbObjId": "knife",
+                      "id": "ConditionObjectGrabbed"
+                    },
+                    "child": {
+                      "$type": "ScenarioEditor.Scene.Action.ActionSpawnItem, ScenarioEditor",
+                      "locationId": "Location1",
+                      "itemId": "DaggerCommon",
+                      "bbSpawnedId": "knife",
+                      "staticObj": false,
+                      "id": "ActionSpawnItem"
+                    },
+                    "id": "When"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionSpawnItem",
+                  "When"
+                ],
+                "id": "ControlSequence"
+              },
+              "id": "Scene0"
+            },
+            "Scene1": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": null,
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionSpawnCreature": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location2",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "dummy",
+                    "despawnOnReset": true,
+                    "faction": "Passive",
+                    "id": "ActionSpawnCreature"
+                  },
+                  "When": {
+                    "$type": "ScenarioEditor.Scene.Conditional.ConditionalWhen, ScenarioEditor",
+                    "condition": {
+                      "$type": "ScenarioEditor.Scene.Condition.ConditionCreatureKilled, ScenarioEditor",
+                      "bbCreatureId": "dummy",
+                      "id": "ConditionCreatureKilled"
+                    },
+                    "child": {
+                      "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                      "locationId": "Location2",
+                      "creatureId": "Unarmed",
+                      "creatureType": "Table",
+                      "bbSpawnedId": "dummy",
+                      "despawnOnReset": true,
+                      "faction": "Passive",
+                      "id": "ActionSpawnCreature"
+                    },
+                    "id": "When"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionSpawnCreature",
+                  "When"
+                ],
+                "id": "ControlSequence"
+              },
+              "id": "Scene1"
+            }
+          },
+          "ChildOrder": [
+            "Scene",
+            "Scene0",
+            "Scene1"
+          ],
+          "id": "ControlParallel"
+        }
+      },
+      "ChildOrder": [
+        "ActionLoadLevel",
+        "ControlParallel"
+      ],
+      "id": "ControlSequence"
+    },
+    "id": "Scene"
+  },
+  "Id": "ArenaTargetPractice"
+}

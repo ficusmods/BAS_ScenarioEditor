@@ -1,0 +1,17 @@
+@startuml
+title Base control nodes
+
+abstract Control
+class Sequence
+class Parallel
+class Selector
+
+Control <|-- Sequence
+note bottom : Runs children in sequence
+Control <|-- Parallel
+note bottom : Runs children in parallel
+Control <|-- Selector
+note bottom : Runs until one of the children evaluate succesfully
+
+
+@enduml

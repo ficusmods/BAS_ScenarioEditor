@@ -1,0 +1,293 @@
+{
+  "$type": "ScenarioEditor.Data.SEDataScenario, ScenarioEditor",
+  "id": "MarketMassacre",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "DataFormatVersion": 1,
+  "saveFolder": "Scenarios",
+  "Locations": {
+    "$type": "ScenarioEditor.Data.SEDataLocations, ScenarioEditor",
+    "Location": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 6.391582,
+        "y": 2.042377,
+        "z": -0.113605142
+      },
+      "rotation": {
+        "x": 4.725314E-06,
+        "y": 78.2943344,
+        "z": -4.41009161E-06
+      }
+    },
+    "Location0": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 0.5849613,
+        "y": 2.04237652,
+        "z": 5.6215663
+      },
+      "rotation": {
+        "x": -5.13966256E-07,
+        "y": 92.55441,
+        "z": 1.28960291E-05
+      }
+    },
+    "Location1": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 0.6468453,
+        "y": 2.04237461,
+        "z": -0.8247279
+      },
+      "rotation": {
+        "x": 1.12128337E-05,
+        "y": 116.450546,
+        "z": -2.97531551E-06
+      }
+    },
+    "Location2": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 1.65610266,
+        "y": 2.04237652,
+        "z": -6.98861361
+      },
+      "rotation": {
+        "x": 3.12606353E-05,
+        "y": 18.1634579,
+        "z": 5.375185E-06
+      }
+    },
+    "Location3": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -4.459503,
+        "y": 2.04239058,
+        "z": -10.1988277
+      },
+      "rotation": {
+        "x": 1.11277195E-05,
+        "y": 65.8987961,
+        "z": 2.37969243E-06
+      }
+    },
+    "Location4": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -9.394294,
+        "y": 2.0423758,
+        "z": -5.973478
+      },
+      "rotation": {
+        "x": 0.0002069146,
+        "y": 88.55774,
+        "z": -0.000752829
+      }
+    },
+    "Location5": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -8.820935,
+        "y": 2.04237127,
+        "z": 5.784345
+      },
+      "rotation": {
+        "x": 0.0005957452,
+        "y": 109.750023,
+        "z": -0.000737919647
+      }
+    },
+    "Location6": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 13.7947435,
+        "y": 0.525102,
+        "z": 0.858559966
+      },
+      "rotation": {
+        "x": -0.0006160168,
+        "y": 332.37262,
+        "z": 4.07947336E-05
+      }
+    },
+    "Location7": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 13.7695417,
+        "y": 0.5308382,
+        "z": -2.11555147
+      },
+      "rotation": {
+        "x": -0.000596188649,
+        "y": 347.6885,
+        "z": -0.000209364021
+      }
+    }
+  },
+  "Triggers": {
+    "$type": "ScenarioEditor.Data.SEDataTriggers, ScenarioEditor"
+  },
+  "RootNode": {
+    "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+    "condition": null,
+    "child": {
+      "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+      "ChildByName": {
+        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+        "ControlParallel": {
+          "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+          "ChildByName": {
+            "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+            "Scene": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": null,
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionSpawnCreature": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature"
+                  },
+                  "ActionSpawnCreature0": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location0",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature0"
+                  },
+                  "ActionSpawnCreature1": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location1",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature1"
+                  },
+                  "ActionSpawnCreature2": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location2",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy2",
+                    "id": "ActionSpawnCreature2"
+                  },
+                  "ActionSpawnCreature3": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location3",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature3"
+                  },
+                  "ActionSpawnCreature4": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location4",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature4"
+                  },
+                  "ActionSpawnCreature5": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location5",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature5"
+                  },
+                  "ActionSpawnCreature6": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location6",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature6"
+                  },
+                  "ActionSpawnCreature7": {
+                    "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                    "locationId": "Location7",
+                    "creatureId": "Unarmed",
+                    "creatureType": "Table",
+                    "bbSpawnedId": "",
+                    "despawnOnReset": true,
+                    "faction": "Enemy1",
+                    "id": "ActionSpawnCreature7"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionSpawnCreature",
+                  "ActionSpawnCreature0",
+                  "ActionSpawnCreature1",
+                  "ActionSpawnCreature2",
+                  "ActionSpawnCreature3",
+                  "ActionSpawnCreature4",
+                  "ActionSpawnCreature5",
+                  "ActionSpawnCreature6",
+                  "ActionSpawnCreature7"
+                ],
+                "id": "ControlParallel"
+              },
+              "id": "Scene"
+            }
+          },
+          "ChildOrder": [
+            "Scene"
+          ],
+          "id": "ControlParallel"
+        },
+        "Scene": {
+          "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+          "condition": null,
+          "child": {
+            "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+            "ChildByName": {
+              "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+              "ActionLoadLevel": {
+                "$type": "ScenarioEditor.Scene.Action.ActionLoadLevel, ScenarioEditor",
+                "levelId": "Market",
+                "child": null,
+                "id": "ActionLoadLevel"
+              }
+            },
+            "ChildOrder": [
+              "ActionLoadLevel"
+            ],
+            "id": "ControlSequence"
+          },
+          "id": "Scene"
+        }
+      },
+      "ChildOrder": [
+        "Scene",
+        "ControlParallel"
+      ],
+      "id": "ControlSequence"
+    },
+    "id": "Scene"
+  },
+  "Id": "MarketMassacre"
+}

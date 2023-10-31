@@ -1,0 +1,7 @@
+﻿{
+  "Name": "ScenarioEditor",
+  "Description": "Allows setting up and loading scenarios",
+  "Author": "ficus",
+  "ModVersion": "1.0",
+  "GameVersion": "0.11.0.0"
+}

@@ -1,0 +1,105 @@
+{
+  "$type": "ScenarioEditor.Data.SEBookMenuRegistry, ScenarioEditor",
+  "id": "BookMenuRegistry",
+  "version": 0,
+  "entries": [
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryBookMenu, ScenarioEditor",
+      "id": "Keyboard",
+      "menuPrefabAddress": "ficus.SEMenu.Keyboard",
+      "menuType": "ScenarioEditor.Menu.Keyboard, ScenarioEditor",
+      "size": {
+        "x": 2000,
+        "y": 1200
+      },
+      "scale": {
+        "x": 0.00025,
+        "y": 0.00025,
+        "z": 0.00025
+      },
+      "distance": 0.85
+
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryBookMenu, ScenarioEditor",
+      "id": "ScenarioBrowser",
+      "menuPrefabAddress": "ficus.SEMenu.LazyBookMenu",
+      "menuType": "ScenarioEditor.Menu.ScenarioBrowser, ScenarioEditor",
+      "size": {
+        "x": 1200,
+        "y": 1600
+      },
+      "scale": {
+        "x": 0.000415,
+        "y": 0.000415,
+        "z": 0.000415
+      },
+      "distance": 0.85
+
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryBookMenu, ScenarioEditor",
+      "id": "LocationsEditor",
+      "menuPrefabAddress": "ficus.SEMenu.LazyBookMenu",
+      "menuType": "ScenarioEditor.Menu.LocationsEditor, ScenarioEditor",
+      "size": {
+        "x": 1200,
+        "y": 1600
+      },
+      "scale": {
+        "x": 0.000415,
+        "y": 0.000415,
+        "z": 0.000415
+      },
+      "distance": 0.85
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryBookMenu, ScenarioEditor",
+      "id": "TriggerEditor",
+      "menuPrefabAddress": "ficus.SEMenu.LazyBookMenu",
+      "menuType": "ScenarioEditor.Menu.TriggerEditor, ScenarioEditor",
+      "size": {
+        "x": 1200,
+        "y": 1600
+      },
+      "scale": {
+        "x": 0.000415,
+        "y": 0.000415,
+        "z": 0.000415
+      },
+      "distance": 0.85
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryBookMenu, ScenarioEditor",
+      "id": "NodeTreeEditor",
+      "menuPrefabAddress": "ficus.SEMenu.LazyBookMenu",
+      "menuType": "ScenarioEditor.Menu.NodeTreeEditor, ScenarioEditor",
+      "size": {
+        "x": 2500,
+        "y": 3500
+      },
+      "scale": {
+        "x": 0.000333,
+        "y": 0.000333,
+        "z": 0.000333
+      },
+      "distance": 0.9
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryBookMenu, ScenarioEditor",
+      "id": "NodeGraph",
+      "menuPrefabAddress": "ficus.SEMenu.GraphMenu",
+      "menuType": "ScenarioEditor.Menu.NodeGraph, ScenarioEditor",
+      "size": {
+        "x": 4000,
+        "y": 6000
+      },
+      "scale": {
+        "x": 0.000333,
+        "y": 0.000333,
+        "z": 0.000333
+      },
+      "distance": 1.2
+    }
+  ]
+}

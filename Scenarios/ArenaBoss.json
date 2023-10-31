@@ -1,0 +1,75 @@
+{
+  "$type": "ScenarioEditor.Data.SEDataScenario, ScenarioEditor",
+  "id": "ArenaBoss",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "DataFormatVersion": 1,
+  "saveFolder": "Scenarios",
+  "Locations": {
+    "$type": "ScenarioEditor.Data.SEDataLocations, ScenarioEditor",
+    "Location": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -6.22698069,
+        "y": 0.16999945,
+        "z": -1.49428844
+      },
+      "rotation": {
+        "x": -7.46026126E-06,
+        "y": 108.113106,
+        "z": 4.255522E-06
+      }
+    }
+  },
+  "Triggers": {
+    "$type": "ScenarioEditor.Data.SEDataTriggers, ScenarioEditor"
+  },
+  "RootNode": {
+    "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+    "condition": null,
+    "child": {
+      "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+      "ChildByName": {
+        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+        "ActionLoadLevel": {
+          "$type": "ScenarioEditor.Scene.Action.ActionLoadLevel, ScenarioEditor",
+          "levelId": "Arena",
+          "child": null,
+          "id": "ActionLoadLevel"
+        },
+        "ActionSetHealth": {
+          "$type": "ScenarioEditor.Scene.Action.ActionSetHealth, ScenarioEditor",
+          "health": 500,
+          "bbCreatureId": "k0",
+          "id": "ActionSetHealth"
+        },
+        "ActionSetHeight": {
+          "$type": "ScenarioEditor.Scene.Action.ActionSetHeight, ScenarioEditor",
+          "height": 2.5,
+          "bbCreatureId": "k0",
+          "id": "ActionSetHeight"
+        },
+        "ActionSpawnCreature": {
+          "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+          "locationId": "Location",
+          "creatureId": "KnightMelee",
+          "creatureType": "Table",
+          "bbSpawnedId": "k0",
+          "despawnOnReset": true,
+          "faction": "Enemy1",
+          "id": "ActionSpawnCreature"
+        }
+      },
+      "ChildOrder": [
+        "ActionLoadLevel",
+        "ActionSpawnCreature",
+        "ActionSetHealth",
+        "ActionSetHeight"
+      ],
+      "id": "ControlSequence"
+    },
+    "id": "Scene"
+  },
+  "Id": "ArenaBoss"
+}

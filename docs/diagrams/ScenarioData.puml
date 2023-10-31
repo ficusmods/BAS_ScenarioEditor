@@ -1,0 +1,13 @@
+@startuml
+Scenario *-- Location
+Scenario *-- Trigger
+Scenario *-- RootNode
+
+RootNode o-- ChildNode
+ChildNode "1" o-- "n" ChildNode
+
+Location : position
+Location : rotation
+
+Trigger : bounds
+@enduml

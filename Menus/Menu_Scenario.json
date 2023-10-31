@@ -1,0 +1,14 @@
+{
+  "$type": "ThunderRoad.MenuData, ThunderRoad",
+  "id": "ScenarioEditor",
+  "saveFolder": "bas",
+  "version": 1,
+  "order": 3.0,
+  "isDefault": false,
+  "nameId": "ScenarioEditor",
+  "iconAddress": "Bas.Icon.treasure-map",
+  "prefabAddress": "ficus.Menu.ScenarioEditorMenuRoot",
+  "module": {
+    "$type": "ScenarioEditor.ScenarioEditorMenuModule, ScenarioEditor"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$type": "ThunderRoad.LevelData, Assembly-CSharp",
+  "id": "Master",
+  "version": 3,
+  "modes": [
+    {
+      "name": "Default",
+      "modules": [
+        {
+          "$type": "ScenarioEditor.LoadModule, ScenarioEditor",
+          "mod_name": "ScenarioEditor",
+          "mod_version": "1.0",
+          "logger_level": "Detailed"
+        }
+      ]
+    }
+  ]
+}

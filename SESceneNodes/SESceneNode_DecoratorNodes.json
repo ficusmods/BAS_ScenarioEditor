@@ -1,0 +1,55 @@
+{
+  "$type": "ScenarioEditor.Data.SESceneNodeRegistry, ScenarioEditor",
+  "id": "SceneNodeRegistry",
+  "version": 0,
+  "entries": [
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "DecoratorAlwaysFailure",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Decorator.MenuDecorator`1[[ScenarioEditor.Scene.Decorator.DecoratorAlwaysFailure, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Decorator.DecoratorAlwaysFailure, ScenarioEditor",
+      "description": "Changes the child's returned state to fail."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "DecoratorAlwaysRunning",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Decorator.MenuDecorator`1[[ScenarioEditor.Scene.Decorator.DecoratorAlwaysRunning, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Decorator.DecoratorAlwaysRunning, ScenarioEditor",
+      "description": "Changes the child's returned state to running."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "DecoratorAlwaysSuccess",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Decorator.MenuDecorator`1[[ScenarioEditor.Scene.Decorator.DecoratorAlwaysSuccess, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Decorator.DecoratorAlwaysSuccess, ScenarioEditor",
+      "description": "Changes the child's returned state to success."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "DecoratorReset",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Decorator.MenuDecorator`1[[ScenarioEditor.Scene.Decorator.DecoratorReset, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Decorator.DecoratorReset, ScenarioEditor",
+      "description": "Resets the child when it finishes execution."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "NOT",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Decorator.MenuDecorator`1[[ScenarioEditor.Scene.Decorator.DecoratorNot, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Decorator.DecoratorNot, ScenarioEditor",
+      "description": "Inverts the child's status."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "DecoratorToSignal",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Decorator.MenuDecoratorToSignal, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Decorator.DecoratorToSignal, ScenarioEditor",
+      "description": "Turns the status of the child node into a signal on the blackboard."
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "$type": "ScenarioEditor.Data.SEDataScenario, ScenarioEditor",
+  "id": "RuinsAmbush",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "DataFormatVersion": 1,
+  "saveFolder": "Scenarios",
+  "Locations": {
+    "$type": "ScenarioEditor.Data.SEDataLocations, ScenarioEditor",
+    "Location": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -0.0281583574,
+        "y": 2.845083,
+        "z": 63.3076324
+      },
+      "rotation": {
+        "x": 0.7283144,
+        "y": 330.109222,
+        "z": 353.706665
+      }
+    },
+    "Location0": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 9.784582,
+        "y": 7.47999763,
+        "z": 42.41342
+      },
+      "rotation": {
+        "x": 1.56614954E-06,
+        "y": 300.707184,
+        "z": -1.10834753E-05
+      }
+    },
+    "Location1": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 9.494024,
+        "y": 7.479999,
+        "z": 37.7667542
+      },
+      "rotation": {
+        "x": 4.14424358E-06,
+        "y": 305.108856,
+        "z": -4.437232E-06
+      }
+    },
+    "Location10": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -0.167322636,
+        "y": 2.30499387,
+        "z": 55.37354
+      },
+      "rotation": {
+        "x": 0.0007678656,
+        "y": 333.874329,
+        "z": 5.45869625E-05
+      }
+    },
+    "Location2": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -9.521286,
+        "y": 7.47999954,
+        "z": 49.43056
+      },
+      "rotation": {
+        "x": 3.446283E-06,
+        "y": 32.084713,
+        "z": -7.857741E-07
+      }
+    },
+    "Location3": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -9.54736,
+        "y": 7.47999763,
+        "z": 46.23163
+      },
+      "rotation": {
+        "x": 9.146126E-06,
+        "y": 20.9655972,
+        "z": 2.81362958E-07
+      }
+    },
+    "Location4": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -11.6607275,
+        "y": 2.3050015,
+        "z": 51.3375931
+      },
+      "rotation": {
+        "x": -0.000153188026,
+        "y": 95.7119446,
+        "z": 0.000134509828
+      }
+    },
+    "Location5": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -11.8835859,
+        "y": 2.305,
+        "z": 52.518
+      },
+      "rotation": {
+        "x": -0.000300448068,
+        "y": 110.81855,
+        "z": -0.000102187725
+      }
+    },
+    "Location6": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 12.0950279,
+        "y": 3.879998,
+        "z": 52.5141525
+      },
+      "rotation": {
+        "x": 0.000286829483,
+        "y": 237.466156,
+        "z": -0.000350027956
+      }
+    },
+    "Location7": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 10.3197908,
+        "y": 2.30499649,
+        "z": 47.3749237
+      },
+      "rotation": {
+        "x": 0.000677092932,
+        "y": 350.532745,
+        "z": 0.00023802038
+      }
+    },
+    "Location8": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -4.860323,
+        "y": 0.999997258,
+        "z": 33.6593475
+      },
+      "rotation": {
+        "x": 0.000439664524,
+        "y": 11.9544945,
+        "z": 0.0005006857
+      }
+    },
+    "Location9": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 4.84009457,
+        "y": 0.999996066,
+        "z": 33.955883
+      },
+      "rotation": {
+        "x": 0.000477017253,
+        "y": 278.77,
+        "z": -0.000440843345
+      }
+    }
+  },
+  "Triggers": {
+    "$type": "ScenarioEditor.Data.SEDataTriggers, ScenarioEditor",
+    "Trigger": {
+      "$type": "ScenarioEditor.Data.SEDataTrigger, ScenarioEditor",
+      "start": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "end": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  },
+  "RootNode": {
+    "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+    "condition": {
+      "$type": "ScenarioEditor.Scene.Condition.ConditionTrue, ScenarioEditor",
+      "id": "TRUE"
+    },
+    "child": {
+      "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+      "ChildByName": {
+        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+        "ControlParallel": {
+          "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+          "ChildByName": {
+            "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+            "Scene": {
+              "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+              "condition": null,
+              "child": {
+                "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+                "ChildByName": {
+                  "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                  "ActionCreateItemSpot": {
+                    "$type": "Scavenger.SE.ActionCreateItemSpot, Scavenger",
+                    "locationId": "Location",
+                    "itemId": "SkeletonSkullWithJaw",
+                    "bbSpawnedId": "skull",
+                    "id": "ActionCreateItemSpot"
+                  },
+                  "ConditionalWaitFor": {
+                    "$type": "ScenarioEditor.Scene.Conditional.ConditionalWaitFor, ScenarioEditor",
+                    "condition": {
+                      "$type": "ScenarioEditor.Scene.Condition.ConditionObjectGrabbed, ScenarioEditor",
+                      "bbObjId": "skull",
+                      "id": "ConditionObjectGrabbed"
+                    },
+                    "child": {
+                      "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+                      "ChildByName": {
+                        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                        "ControlParallel": {
+                          "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                          "ChildByName": {
+                            "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                            "ActionSpawnCreature": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location0",
+                              "creatureId": "BanditArchers",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature"
+                            },
+                            "ActionSpawnCreature0": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location1",
+                              "creatureId": "BanditArchers",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature0"
+                            },
+                            "ActionSpawnCreature1": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location2",
+                              "creatureId": "BanditArchers",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature1"
+                            },
+                            "ActionSpawnCreature2": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location3",
+                              "creatureId": "BanditArchers",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature2"
+                            },
+                            "ActionSpawnCreature3": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location4",
+                              "creatureId": "MercenaryMelee",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "r0",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature3"
+                            },
+                            "ActionSpawnCreature4": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location5",
+                              "creatureId": "MercenaryMelee",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "r1",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature4"
+                            },
+                            "ActionSpawnCreature5": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location6",
+                              "creatureId": "MercenaryMelee",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "r2",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature5"
+                            },
+                            "ActionSpawnCreature6": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location7",
+                              "creatureId": "MercenaryMelee",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "r3",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature6"
+                            },
+                            "ActionSpawnCreature7": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location8",
+                              "creatureId": "MercenaryMelee",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "r4",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature7"
+                            },
+                            "ActionSpawnCreature8": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                              "locationId": "Location9",
+                              "creatureId": "MercenaryMelee",
+                              "creatureType": "Table",
+                              "bbSpawnedId": "r5",
+                              "despawnOnReset": true,
+                              "faction": "Enemy1",
+                              "id": "ActionSpawnCreature8"
+                            }
+                          },
+                          "ChildOrder": [
+                            "ActionSpawnCreature",
+                            "ActionSpawnCreature0",
+                            "ActionSpawnCreature1",
+                            "ActionSpawnCreature2",
+                            "ActionSpawnCreature3",
+                            "ActionSpawnCreature4",
+                            "ActionSpawnCreature5",
+                            "ActionSpawnCreature6",
+                            "ActionSpawnCreature7",
+                            "ActionSpawnCreature8"
+                          ],
+                          "id": "ControlParallel"
+                        },
+                        "ControlParallel0": {
+                          "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+                          "ChildByName": {
+                            "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+                            "ActionMoveCreature": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                              "locationId": "Location10",
+                              "bbCreatureId": "r0",
+                              "id": "ActionMoveCreature"
+                            },
+                            "ActionMoveCreature0": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                              "locationId": "Location10",
+                              "bbCreatureId": "r1",
+                              "id": "ActionMoveCreature0"
+                            },
+                            "ActionMoveCreature1": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                              "locationId": "Location10",
+                              "bbCreatureId": "r2",
+                              "id": "ActionMoveCreature1"
+                            },
+                            "ActionMoveCreature2": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                              "locationId": "Location10",
+                              "bbCreatureId": "r3",
+                              "id": "ActionMoveCreature2"
+                            },
+                            "ActionMoveCreature3": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                              "locationId": "Location10",
+                              "bbCreatureId": "r4",
+                              "id": "ActionMoveCreature3"
+                            },
+                            "ActionMoveCreature4": {
+                              "$type": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+                              "locationId": "Location10",
+                              "bbCreatureId": "r5",
+                              "id": "ActionMoveCreature4"
+                            }
+                          },
+                          "ChildOrder": [
+                            "ActionMoveCreature",
+                            "ActionMoveCreature0",
+                            "ActionMoveCreature1",
+                            "ActionMoveCreature2",
+                            "ActionMoveCreature3",
+                            "ActionMoveCreature4"
+                          ],
+                          "id": "ControlParallel0"
+                        }
+                      },
+                      "ChildOrder": [
+                        "ControlParallel",
+                        "ControlParallel0"
+                      ],
+                      "id": "ControlSequence"
+                    },
+                    "id": "ConditionalWaitFor"
+                  }
+                },
+                "ChildOrder": [
+                  "ActionCreateItemSpot",
+                  "ConditionalWaitFor"
+                ],
+                "id": "ControlSequence"
+              },
+              "id": "Scene"
+            }
+          },
+          "ChildOrder": [
+            "Scene"
+          ],
+          "id": "ControlParallel"
+        },
+        "Scene": {
+          "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+          "condition": null,
+          "child": {
+            "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+            "ChildByName": {
+              "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+              "ActionLoadLevel": {
+                "$type": "ScenarioEditor.Scene.Action.ActionLoadLevel, ScenarioEditor",
+                "levelId": "Ruins",
+                "child": null,
+                "id": "ActionLoadLevel"
+              }
+            },
+            "ChildOrder": [
+              "ActionLoadLevel"
+            ],
+            "id": "ControlSequence"
+          },
+          "id": "Scene"
+        }
+      },
+      "ChildOrder": [
+        "Scene",
+        "ControlParallel"
+      ],
+      "id": "ControlSequence"
+    },
+    "id": "Scene"
+  },
+  "Id": "RuinsAmbush"
+}

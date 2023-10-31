@@ -1,0 +1,266 @@
+{
+  "$type": "ScenarioEditor.Data.SEDataScenario, ScenarioEditor",
+  "id": "ArenaContinuous",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "DataFormatVersion": 1,
+  "Locations": {
+    "$type": "ScenarioEditor.Data.SEDataLocations, ScenarioEditor",
+    "Location": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 9.026761,
+        "y": 0.169999212,
+        "z": -7.7018075
+      },
+      "rotation": {
+        "x": -2.49578879E-05,
+        "y": 333.028168,
+        "z": 5.546381E-06
+      }
+    },
+    "Location0": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 7.58641672,
+        "y": 0.169999212,
+        "z": 6.50574541
+      },
+      "rotation": {
+        "x": -1.44290952E-05,
+        "y": 181.387512,
+        "z": -7.11214125E-06
+      }
+    },
+    "Location1": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -5.160308,
+        "y": 0.169998616,
+        "z": 9.487368
+      },
+      "rotation": {
+        "x": 2.903423E-06,
+        "y": 155.038132,
+        "z": -6.63563742E-06
+      }
+    },
+    "Location2": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -8.9895,
+        "y": 0.169999689,
+        "z": -0.9605467
+      },
+      "rotation": {
+        "x": -7.498542E-06,
+        "y": 74.93665,
+        "z": 8.774727E-06
+      }
+    },
+    "Location3": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -2.55345,
+        "y": 0.169999152,
+        "z": -12.7041807
+      },
+      "rotation": {
+        "x": 7.748366E-05,
+        "y": 21.54499,
+        "z": 9.962258E-06
+      }
+    }
+  },
+  "Triggers": {
+    "$type": "ScenarioEditor.Data.SEDataTriggers, ScenarioEditor"
+  },
+  "RootNode": {
+    "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+    "condition": null,
+    "child": {
+      "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+      "ChildByName": {
+        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+        "ActionLoadLevel": {
+          "$type": "ScenarioEditor.Scene.Action.ActionLoadLevel, ScenarioEditor",
+          "levelId": "Arena",
+          "child": null,
+          "id": "ActionLoadLevel"
+        },
+        "ControlParallel": {
+          "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+          "ChildByName": {
+            "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+            "ActionSpawnCreature": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location",
+              "creatureId": "KnightHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "e0",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature"
+            },
+            "ActionSpawnCreature0": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location0",
+              "creatureId": "KnightHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "e1",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature0"
+            },
+            "ActionSpawnCreature1": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location1",
+              "creatureId": "KnightHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "e2",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature1"
+            },
+            "ActionSpawnCreature2": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location3",
+              "creatureId": "KnightHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "e4",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature2"
+            },
+            "ActionSpawnCreature3": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location2",
+              "creatureId": "KnightHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "e3",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature3"
+            },
+            "When": {
+              "$type": "ScenarioEditor.Scene.Conditional.ConditionalWhen, ScenarioEditor",
+              "condition": {
+                "$type": "ScenarioEditor.Scene.Condition.ConditionCreatureKilled, ScenarioEditor",
+                "bbCreatureId": "e0",
+                "id": "ConditionCreatureKilled"
+              },
+              "child": {
+                "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                "locationId": "Location",
+                "creatureId": "KnightHard",
+                "creatureType": "Table",
+                "bbSpawnedId": "e0",
+                "despawnOnReset": true,
+                "faction": "Enemy1",
+                "id": "ActionSpawnCreature"
+              },
+              "id": "When"
+            },
+            "When0": {
+              "$type": "ScenarioEditor.Scene.Conditional.ConditionalWhen, ScenarioEditor",
+              "condition": {
+                "$type": "ScenarioEditor.Scene.Condition.ConditionCreatureKilled, ScenarioEditor",
+                "bbCreatureId": "e1",
+                "id": "ConditionCreatureKilled"
+              },
+              "child": {
+                "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                "locationId": "Location0",
+                "creatureId": "KnightHard",
+                "creatureType": "Table",
+                "bbSpawnedId": "e1",
+                "despawnOnReset": true,
+                "faction": "Enemy1",
+                "id": "ActionSpawnCreature"
+              },
+              "id": "When0"
+            },
+            "When1": {
+              "$type": "ScenarioEditor.Scene.Conditional.ConditionalWhen, ScenarioEditor",
+              "condition": {
+                "$type": "ScenarioEditor.Scene.Condition.ConditionCreatureKilled, ScenarioEditor",
+                "bbCreatureId": "e2",
+                "id": "ConditionCreatureKilled"
+              },
+              "child": {
+                "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                "locationId": "Location1",
+                "creatureId": "KnightHard",
+                "creatureType": "Table",
+                "bbSpawnedId": "e2",
+                "despawnOnReset": true,
+                "faction": "Enemy1",
+                "id": "ActionSpawnCreature"
+              },
+              "id": "When1"
+            },
+            "When2": {
+              "$type": "ScenarioEditor.Scene.Conditional.ConditionalWhen, ScenarioEditor",
+              "condition": {
+                "$type": "ScenarioEditor.Scene.Condition.ConditionCreatureKilled, ScenarioEditor",
+                "bbCreatureId": "e3",
+                "id": "ConditionCreatureKilled"
+              },
+              "child": {
+                "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                "locationId": "Location2",
+                "creatureId": "KnightHard",
+                "creatureType": "Table",
+                "bbSpawnedId": "e3",
+                "despawnOnReset": true,
+                "faction": "Enemy1",
+                "id": "ActionSpawnCreature"
+              },
+              "id": "When2"
+            },
+            "When3": {
+              "$type": "ScenarioEditor.Scene.Conditional.ConditionalWhen, ScenarioEditor",
+              "condition": {
+                "$type": "ScenarioEditor.Scene.Condition.ConditionCreatureKilled, ScenarioEditor",
+                "bbCreatureId": "e4",
+                "id": "ConditionCreatureKilled"
+              },
+              "child": {
+                "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+                "locationId": "Location3",
+                "creatureId": "KnightHard",
+                "creatureType": "Table",
+                "bbSpawnedId": "e4",
+                "despawnOnReset": true,
+                "faction": "Enemy1",
+                "id": "ActionSpawnCreature"
+              },
+              "id": "When3"
+            }
+          },
+          "ChildOrder": [
+            "ActionSpawnCreature",
+            "ActionSpawnCreature0",
+            "ActionSpawnCreature1",
+            "ActionSpawnCreature3",
+            "ActionSpawnCreature2",
+            "When",
+            "When0",
+            "When1",
+            "When2",
+            "When3"
+          ],
+          "id": "ControlParallel"
+        }
+      },
+      "ChildOrder": [
+        "ActionLoadLevel",
+        "ControlParallel"
+      ],
+      "id": "ControlSequence"
+    },
+    "id": "Scene"
+  },
+  "Id": "ArenaContinuous"
+}

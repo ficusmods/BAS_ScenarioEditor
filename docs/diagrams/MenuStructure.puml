@@ -1,0 +1,48 @@
+@startuml
+title Scenario Editor menu architecture
+
+interface IMenu
+interface IBookMenu
+abstract LazyMenu
+abstract LazyBookMenu
+class Keyboard
+class NodeGraph
+class ScenarioBrowser
+class LocationsEditor
+class TriggerEditor
+class NodeTreeEditor
+
+package BookMenuRegistry(JSON) <<Folder>> {
+  struct Entry
+
+  Entry : id
+  Entry : prefabAddress
+  Entry : menuType
+  note top : Registers a menu in the book
+}
+
+note "Available from the book main menu\nand can follow the player around" as NBookMenu
+note "Menu builder with auto layout" as NLazyMenu
+
+IMenu : show()
+IMenu : hide()
+
+IBookMenu : attach()
+IBookMenu : detach()
+
+IMenu <|-- IBookMenu
+IMenu <|-- LazyMenu
+IBookMenu <|-- Keyboard
+IBookMenu <|-- NodeGraph
+
+LazyMenu <|-- LazyBookMenu
+IBookMenu <|-- LazyBookMenu
+LazyBookMenu <|-- ScenarioBrowser
+LazyBookMenu <|-- LocationsEditor
+LazyBookMenu <|-- TriggerEditor
+LazyBookMenu <|-- NodeTreeEditor
+
+NBookMenu .. IBookMenu
+NLazyMenu .. LazyMenu
+
+@enduml

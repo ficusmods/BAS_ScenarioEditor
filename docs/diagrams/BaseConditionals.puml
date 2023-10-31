@@ -1,0 +1,16 @@
+@startuml
+title Base conditional nodes
+
+abstract Conditional
+class While
+class WaitFor
+class When
+
+Conditional <|-- While
+note bottom : Evaluates child while the condition is true
+Conditional <|-- WaitFor
+note bottom : Evaluates child after the condition becomes true
+Conditional <|-- When
+note bottom : Evaluates child when the condition is true\nEquivalent to AlwaysRunning+While
+
+@enduml

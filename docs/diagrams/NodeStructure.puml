@@ -1,0 +1,42 @@
+@startuml
+title Scenario Editor basic node types
+
+namespace BasicNodes {
+  abstract SceneNode
+  abstract Action
+  abstract Condition
+  abstract Decorator
+  abstract Control
+  abstract Conditional
+
+  SceneNode <|-- Decorator
+  SceneNode <|-- Action
+  SceneNode <|-- Control
+  SceneNode <|-- Condition
+  Decorator <|-- Conditional
+}
+
+namespace Decorator {
+  abstract Decorator
+  class ChildNode
+  
+  Decorator o-- ChildNode
+}
+
+namespace Control {
+  abstract Control
+  class ChildNode
+  
+  Control "1..*" o-- ChildNode
+}
+
+namespace Conditional {
+  abstract Conditional
+  class ChildNode
+  class Condition
+  
+  Conditional o-- ChildNode
+  Conditional o-- Condition
+}
+
+@enduml

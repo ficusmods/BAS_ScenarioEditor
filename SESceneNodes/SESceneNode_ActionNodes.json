@@ -1,0 +1,95 @@
+{
+  "$type": "ScenarioEditor.Data.SESceneNodeRegistry, ScenarioEditor",
+  "id": "SceneNodeRegistry",
+  "version": 0,
+  "entries": [
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionSpawnCreature",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionSpawnCreature, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+      "description": "Spawns the configured creature.\nYou can refer to the creature in other nodes by the assigned name."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionLoadLevel",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionLoadLevel, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionLoadLevel, ScenarioEditor",
+      "description": "Loads the selected level if not already loaded."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionLoadDungeon",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionLoadDungeon, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionLoadDungeon, ScenarioEditor",
+      "description": "Loads the selected dungeon with a seed if not already loaded."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionSpawnItem",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionSpawnItem, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionSpawnItem, ScenarioEditor",
+      "description": "Spawns the item."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionClearCreatures",
+      "menuPrefabAddress": null,
+      "menuType": null,
+      "nodeType": "ScenarioEditor.Scene.Action.ActionClearCreatures, ScenarioEditor",
+      "description": "Despawns the creatures in the level."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionMoveCreature",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionMoveCreature, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionMoveCreature, ScenarioEditor",
+      "description": "Moves the specified creature."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionTeleportCreature",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionTeleportCreature, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionTeleportCreature, ScenarioEditor",
+      "description": "Teleports the specified creature."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionSetCreatureEquipment",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionSetCreatureEquipment, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionSetCreatureEquipment, ScenarioEditor",
+      "description": "Change the equipment of a creature on the blackboard."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionSetFaction",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionSetFaction, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionSetFaction, ScenarioEditor",
+      "description": "Change the faction of a creature on the blackboard."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionSetHealth",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionSetHealth, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionSetHealth, ScenarioEditor",
+      "description": "Change the health of a creature on the blackboard."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ActionSetHeight",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Action.MenuActionSetHeight, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Action.ActionSetHeight, ScenarioEditor",
+      "description": "Change the height of a creature on the blackboard."
+    }
+  ]
+}

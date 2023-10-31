@@ -1,0 +1,10 @@
+@startuml
+title Scene node
+
+abstract Conditional
+class SceneNode
+
+Conditional <|-- SceneNode
+note bottom : Initializes a new scene with a fresh blackboard.\nSince it's a conditional, you can provide a condition\nthat determines when the scene starts.
+
+@enduml

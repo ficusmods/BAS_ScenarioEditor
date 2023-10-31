@@ -1,0 +1,135 @@
+{
+  "$type": "ScenarioEditor.Data.SESceneNodeRegistry, ScenarioEditor",
+  "id": "SceneNodeRegistry",
+  "version": 0,
+  "entries": [
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "TRUE",
+      "menuPrefabAddress": null,
+      "menuType": null,
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionTrue, ScenarioEditor",
+      "description": "Always succeed."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "COUNT",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditionCount, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionCount, ScenarioEditor",
+      "description": "Succeeds the ammount of times specified."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "AND",
+      "menuPrefabAddress": null,
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditonBooleanFunc`1[[ScenarioEditor.Scene.Condition.ConditionAND, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionAND, ScenarioEditor",
+      "description": "AND logical operation."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "OR",
+      "menuPrefabAddress": null,
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditonBooleanFunc`1[[ScenarioEditor.Scene.Condition.ConditionOR, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionOR, ScenarioEditor",
+      "description": "OR logical operation."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "NOR",
+      "menuPrefabAddress": null,
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditonBooleanFunc`1[[ScenarioEditor.Scene.Condition.ConditionNOR, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionNOR, ScenarioEditor",
+      "description": "NOR logical operation."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "XOR",
+      "menuPrefabAddress": null,
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditonBooleanFunc`1[[ScenarioEditor.Scene.Condition.ConditionXOR, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionXOR, ScenarioEditor",
+      "description": "XOR logical operation."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "XNOR",
+      "menuPrefabAddress": null,
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditonBooleanFunc`1[[ScenarioEditor.Scene.Condition.ConditionXNOR, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionXNOR, ScenarioEditor",
+      "description": "XNOR logical operation."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "NAND",
+      "menuPrefabAddress": null,
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditonBooleanFunc`1[[ScenarioEditor.Scene.Condition.ConditionNAND, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionNAND, ScenarioEditor",
+      "description": "NAND logical operation."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ConditionAllCreaturesDead",
+      "menuPrefabAddress": null,
+      "menuType": null,
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionAllCreaturesDead, ScenarioEditor",
+      "description": "Checks if all creatures are dead."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ConditionSignalActive",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditionSignalActive, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionSignalActive, ScenarioEditor",
+      "description": "Checks whether a signal is active on the Blackboard."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ConditionTimer",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditionTimer, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionTimer, ScenarioEditor",
+      "description": "Waits for some time to elapse."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ConditionObjectCloseToLocation",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditionObjectCloseToLocation, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionObjectCloseToLocation, ScenarioEditor",
+      "description": "Checks if the object on the blackboard is close to the specified location."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ConditionObjectGrabbed",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditionObjectGrabbed, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionObjectGrabbed, ScenarioEditor",
+      "description": "Checks if the object on the blackboard is grabbed."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ConditionCreatureKilled",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditionCreatureKilled, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionCreatureKilled, ScenarioEditor",
+      "description": "Checks if the creature on the blackboard is killed."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ConditionCompare",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditionCompare, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionCompare, ScenarioEditor",
+      "description": "Compares two values."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ConditionTriggerActive",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Condition.MenuConditionTriggerActive, ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Condition.ConditionTriggerActive, ScenarioEditor",
+      "description": "Checks if a trigger is active or not."
+    }
+  ]
+}

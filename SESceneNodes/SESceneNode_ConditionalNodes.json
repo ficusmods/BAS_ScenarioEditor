@@ -1,0 +1,39 @@
+{
+  "$type": "ScenarioEditor.Data.SESceneNodeRegistry, ScenarioEditor",
+  "id": "SceneNodeRegistry",
+  "version": 0,
+  "entries": [
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "Scene",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Conditional.MenuConditional`1[[ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+      "description": "This node initializes a new scene."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "While",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Conditional.MenuConditional`1[[ScenarioEditor.Scene.Conditional.ConditionalWhile, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Conditional.ConditionalWhile, ScenarioEditor",
+      "description": "Runs while the specified condition is true."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ConditionalWaitFor",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Conditional.MenuConditional`1[[ScenarioEditor.Scene.Conditional.ConditionalWaitFor, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Conditional.ConditionalWaitFor, ScenarioEditor",
+      "description": "Waits for a condition before continuing on with the child node."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "When",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Conditional.MenuConditional`1[[ScenarioEditor.Scene.Conditional.ConditionalWhen, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Conditional.ConditionalWhen, ScenarioEditor",
+      "description": "When the condition is met it runs the child node."
+    }
+  ]
+}

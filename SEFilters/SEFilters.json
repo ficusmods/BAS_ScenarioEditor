@@ -1,0 +1,32 @@
+{
+  "$type": "ScenarioEditor.Data.SEFilterRegistry, ScenarioEditor",
+  "id": "FilterRegistry",
+  "version": 0,
+  "entries": [
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryFilter, ScenarioEditor",
+      "id": "FilterIsCreature",
+      "filterType": "ScenarioEditor.Filter.FilterIsCreature, ScenarioEditor"
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryFilter, ScenarioEditor",
+      "id": "FilterIsDead",
+      "filterType": "ScenarioEditor.Filter.FilterIsDead, ScenarioEditor"
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryFilter, ScenarioEditor",
+      "id": "FilterIsItem",
+      "filterType": "ScenarioEditor.Filter.FilterIsItem, ScenarioEditor"
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryFilter, ScenarioEditor",
+      "id": "FilterIsPlayer",
+      "filterType": "ScenarioEditor.Filter.FilterIsPlayer, ScenarioEditor"
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntryFilter, ScenarioEditor",
+      "id": "FilterIsStatic",
+      "filterType": "ScenarioEditor.Filter.FilterIsStatic, ScenarioEditor"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "$type": "ScenarioEditor.Data.SEDataScenario, ScenarioEditor",
+  "id": "ArenaBrawl",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "DataFormatVersion": 1,
+  "saveFolder": "Scenarios",
+  "Locations": {
+    "$type": "ScenarioEditor.Data.SEDataLocations, ScenarioEditor",
+    "Location": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -3.24053669,
+        "y": 0.170000225,
+        "z": 6.359816
+      },
+      "rotation": {
+        "x": -2.22598665E-05,
+        "y": 163.549484,
+        "z": 1.16892534E-06
+      }
+    },
+    "Location0": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -0.8305246,
+        "y": 0.169999391,
+        "z": 6.217228
+      },
+      "rotation": {
+        "x": 1.3235981E-05,
+        "y": 163.549,
+        "z": 2.04943967E-06
+      }
+    },
+    "Location1": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -2.32169032,
+        "y": 0.169998676,
+        "z": 7.28058672
+      },
+      "rotation": {
+        "x": 1.09822831E-05,
+        "y": 163.547729,
+        "z": 1.37767142E-06
+      }
+    },
+    "Location2": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -2.166064,
+        "y": 0.16999957,
+        "z": 4.12984037
+      },
+      "rotation": {
+        "x": -1.45735139E-05,
+        "y": 163.547058,
+        "z": 3.61658817E-06
+      }
+    },
+    "Location3": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 0.3673633,
+        "y": 0.169999689,
+        "z": 3.603755
+      },
+      "rotation": {
+        "x": -1.86380912E-05,
+        "y": 163.546448,
+        "z": 5.33654975E-06
+      }
+    },
+    "Location4": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -2.14043951,
+        "y": 0.169999272,
+        "z": -3.980231
+      },
+      "rotation": {
+        "x": -3.88624176E-05,
+        "y": 2.8518312,
+        "z": -1.26761336E-06
+      }
+    },
+    "Location5": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -0.6781998,
+        "y": 0.1699991,
+        "z": -4.19034243
+      },
+      "rotation": {
+        "x": -4.512694E-05,
+        "y": 2.85184383,
+        "z": -6.629277E-07
+      }
+    },
+    "Location6": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 0.6858645,
+        "y": 0.170000345,
+        "z": -3.72496843
+      },
+      "rotation": {
+        "x": -3.36803969E-05,
+        "y": 2.85182738,
+        "z": -7.64979461E-07
+      }
+    },
+    "Location7": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": 0.1005364,
+        "y": 0.16999957,
+        "z": -6.06591463
+      },
+      "rotation": {
+        "x": -4.97401E-05,
+        "y": 2.85185814,
+        "z": -1.21145661E-06
+      }
+    },
+    "Location8": {
+      "$type": "ScenarioEditor.Data.SEDataLocation, ScenarioEditor",
+      "pos": {
+        "x": -1.79849076,
+        "y": 0.170000881,
+        "z": -6.96912575
+      },
+      "rotation": {
+        "x": -7.22705663E-05,
+        "y": 2.85183525,
+        "z": -1.05168249E-06
+      }
+    }
+  },
+  "Triggers": {
+    "$type": "ScenarioEditor.Data.SEDataTriggers, ScenarioEditor"
+  },
+  "RootNode": {
+    "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+    "condition": null,
+    "child": {
+      "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+      "ChildByName": {
+        "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+        "ControlParallel": {
+          "$type": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+          "ChildByName": {
+            "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+            "ActionSpawnCreature": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Friendly",
+              "id": "ActionSpawnCreature"
+            },
+            "ActionSpawnCreature0": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location0",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Friendly",
+              "id": "ActionSpawnCreature0"
+            },
+            "ActionSpawnCreature1": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location1",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Friendly",
+              "id": "ActionSpawnCreature1"
+            },
+            "ActionSpawnCreature2": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location2",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Friendly",
+              "id": "ActionSpawnCreature2"
+            },
+            "ActionSpawnCreature3": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location3",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Friendly",
+              "id": "ActionSpawnCreature3"
+            },
+            "ActionSpawnCreature4": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location4",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature4"
+            },
+            "ActionSpawnCreature5": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location5",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature5"
+            },
+            "ActionSpawnCreature6": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location6",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature6"
+            },
+            "ActionSpawnCreature7": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location7",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature7"
+            },
+            "ActionSpawnCreature8": {
+              "$type": "ScenarioEditor.Scene.Action.ActionSpawnCreature, ScenarioEditor",
+              "locationId": "Location8",
+              "creatureId": "BanditHard",
+              "creatureType": "Table",
+              "bbSpawnedId": "",
+              "despawnOnReset": true,
+              "faction": "Enemy1",
+              "id": "ActionSpawnCreature8"
+            }
+          },
+          "ChildOrder": [
+            "ActionSpawnCreature",
+            "ActionSpawnCreature0",
+            "ActionSpawnCreature1",
+            "ActionSpawnCreature2",
+            "ActionSpawnCreature3",
+            "ActionSpawnCreature4",
+            "ActionSpawnCreature5",
+            "ActionSpawnCreature6",
+            "ActionSpawnCreature7",
+            "ActionSpawnCreature8"
+          ],
+          "id": "ControlParallel"
+        },
+        "Scene": {
+          "$type": "ScenarioEditor.Scene.SESceneRootNode, ScenarioEditor",
+          "condition": null,
+          "child": {
+            "$type": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+            "ChildByName": {
+              "$type": "ScenarioEditor.Data.SEDataDictionary`1[[ScenarioEditor.Scene.SESceneNode, ScenarioEditor]], ScenarioEditor",
+              "ActionLoadLevel": {
+                "$type": "ScenarioEditor.Scene.Action.ActionLoadLevel, ScenarioEditor",
+                "levelId": "Arena",
+                "child": null,
+                "id": "ActionLoadLevel"
+              }
+            },
+            "ChildOrder": [
+              "ActionLoadLevel"
+            ],
+            "id": "ControlSequence"
+          },
+          "id": "Scene"
+        }
+      },
+      "ChildOrder": [
+        "Scene",
+        "ControlParallel"
+      ],
+      "id": "ControlSequence"
+    },
+    "id": "Scene"
+  },
+  "Id": "ArenaBrawl"
+}

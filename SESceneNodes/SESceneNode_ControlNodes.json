@@ -1,0 +1,31 @@
+{
+  "$type": "ScenarioEditor.Data.SESceneNodeRegistry, ScenarioEditor",
+  "id": "SceneNodeRegistry",
+  "version": 0,
+  "entries": [
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ControlSequence",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Control.MenuControl`1[[ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Control.ControlSequence, ScenarioEditor",
+      "description": "Runs the childs nodes sequentially."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ControlParallel",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Control.MenuControl`1[[ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Control.ControlParallel, ScenarioEditor",
+      "description": "Runs the childs nodes in parallel."
+    },
+    {
+      "$type": "ScenarioEditor.Data.SERegistryEntrySceneNode, ScenarioEditor",
+      "id": "ControlSelector",
+      "menuPrefabAddress": "ficus.SEMenu.LazyMenu",
+      "menuType": "ScenarioEditor.Menu.Control.MenuControl`1[[ScenarioEditor.Scene.Control.ControlSelector, ScenarioEditor]], ScenarioEditor",
+      "nodeType": "ScenarioEditor.Scene.Control.ControlSelector, ScenarioEditor",
+      "description": "Runs the childs until one of them succeeds."
+    }
+  ]
+}

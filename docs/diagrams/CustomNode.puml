@@ -1,0 +1,23 @@
+@startuml
+title Scenario Editor custom node with an editor
+
+interface IMenu
+class CustomMenu
+abstract BasicNode
+class CustomNode
+
+BasicNode <|-- CustomNode
+IMenu <|-- CustomMenu
+CustomMenu --r--> CustomNode : configures
+
+package SceneNodeRegistry(JSON) <<Folder>> {
+  struct Entry
+
+  Entry : id
+  Entry : menuPrefabAddress
+  Entry : menuType
+  Entry : nodeType
+  note top : Registers a node to be used in scenes
+}
+
+@enduml
