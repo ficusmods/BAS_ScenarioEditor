@@ -27,6 +27,7 @@ namespace ScenarioEditor.Menu.Action
         private void TypeSelector_onOptionSelected(string selected)
         {
             (NodeEditorManager.NowEditing as Scene.Action.ActionLoadLevel).levelId = Catalog.GetData<LevelData>(selected)?.id;
+            Refresh();
         }
 
         public override void Refresh()

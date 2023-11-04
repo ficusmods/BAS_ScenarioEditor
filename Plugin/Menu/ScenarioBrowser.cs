@@ -41,7 +41,6 @@ namespace ScenarioEditor.Menu
             scenarioSelector.onOptionSelected += ScenarioSelector_onOptionSelected;
 
             labelSelectedScenario = AddLabel();
-            labelSelectedMap = AddLabel();
 
             StartHorizontalGroup();
             AddButton("New", () =>
@@ -64,20 +63,17 @@ namespace ScenarioEditor.Menu
         {
             Selected = selected;
             labelSelectedScenario.text = "Scenario: " + Selected;
-            labelSelectedMap.text = "Map: " + Selected;
         }
 
         public override void Refresh()
         {
             scenarioSelector.RefreshContent(ScenarioManager.Scenarios.Keys);
             labelSelectedScenario.text = "Scenario: " + Selected;
-            labelSelectedMap.text = "Map: " + Selected;
         }
 
         protected ScenarioEdit menuEdit;
 
         protected ContentSelectorElement scenarioSelector;
         protected Text labelSelectedScenario;
-        protected Text labelSelectedMap;
     }
 }

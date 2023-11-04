@@ -31,6 +31,8 @@ namespace ScenarioEditor.Menu.Action
             });
             EndHorizontalGroup();
 
+            levelLabel = AddLabel("Level");
+
             yield return new WaitForEndOfFrame();
         }
 
@@ -38,6 +40,7 @@ namespace ScenarioEditor.Menu.Action
         {
             var editedNode = (NodeEditorManager.NowEditing as Scene.Action.ActionLoadDungeon);
             editedNode.levelId = Catalog.GetData<LevelData>(selected)?.id;
+            Refresh();
         }
 
         public override void Refresh()
@@ -45,9 +48,11 @@ namespace ScenarioEditor.Menu.Action
             var editedNode = (NodeEditorManager.NowEditing as Scene.Action.ActionLoadDungeon);
             levelSelector.RefreshContent(Catalog.GetDataList<LevelData>().Where((x) => Utils.isDungeonLevel(x)).Select((x) => x.id));
             inputSeed.text = editedNode.seedStr;
+            levelLabel.text = editedNode.levelId;
         }
 
         protected ContentSelectorElement levelSelector;
         protected InputField inputSeed;
+        protected Text levelLabel;
     }
 }
